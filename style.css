@@ -1,0 +1,113 @@
+/*
+Theme Name: rsw-francepan
+Theme URI: 
+Author: RSW/aymeric"
+Author URI: 
+Description: 
+Version: 0.1.0
+License: Copyright
+Text Domain: rsw-francepan"
+
+*/
+
+
+/* CSS STYLE MAKE DON´T USE GULP */
+
+
+.container__form-curriculo, .container__form-curriculo-upload {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: .1rem solid #0E45DE;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.select__form-curriculo {
+    padding: .5rem .8rem;
+    color: #0E45DE;
+    border: 1.5px solid #0E45DE;
+}
+
+.label__form-curriculo {
+    font-family: BrandonRegular, serif;
+    font-size: 24px;
+    color: #0E45DE;
+    margin-right: 3rem;
+}
+
+.info__form-curriculo h2, .info__form-curriculo p {
+    color: #0E45DE;
+}
+
+.info__form-curriculo p {
+    font-size: 18px;
+}
+
+.upload__form-curriculo {
+    display: none;
+}
+
+.label__form-curriculo-upload {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    background-color: #0E45DE;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border: .1rem solid #0E45DE;
+}
+
+.label__form-curriculo-upload:hover {
+    background-color: #fff!important;
+    color: #0E45DE!important;
+    border: .1rem solid #0E45DE;
+    transition: background-color .3s ease-out,color .3s ease-out;
+}
+
+.wpcf7-form .button1_contato {
+    width: 130px;
+    height: 38px;
+    font-size: 20px;
+    font-family: BrandonBold,Arial,serif;
+    text-transform: uppercase;
+    margin-left: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+    .label__form-curriculo-upload {
+        font-size: .8rem;
+    }
+
+    .info__form-curriculo {
+        padding: 0 20px 20px;
+    }
+}
+
+
+.menu .menu__item-contato.active a {
+    color: #313131!important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -5px;
+    background-color: #ffffff;
+    height: auto;
+    padding: 0 10px;
+    line-height: 15px;
+    margin-bottom: 5px;
+    z-index: 1;
+    transition: height .3s ease-out;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: height .3s ease-out;
+}
