@@ -50,6 +50,7 @@
 			<div class="footer__menu_item <?= $currentPage == 'parceiros' ? 'active' : ''; ?>"><a href="<?= $parceirosPage ?>"><?= mb_strtoupper(__('Parceiros', 'francepan')); ?></a></div>
 			<div class="footer__menu_item <?= $currentPage == 'sobre' ? 'active' : ''; ?>"><a href="<?= $sobrePage ?>"><?= mb_strtoupper(__('Sobre', 'francepan')); ?></a></div>
 			<div class="footer__menu_item <?= $currentPage == 'contato' ? 'active' : ''; ?>"><a href="<?= $contatoPage ?>"><?= mb_strtoupper(__('Contatos', 'francepan')); ?></a></div>
+			<div class="footer__menu_item <?= $currentPage == 'contato' ? 'active' : ''; ?>"><a href="<?= $politicaPrivacidade ?>"><?= mb_strtoupper(__('Politica de Privacidade', 'francepan')); ?></a></div>
 		</div>
 		<div class="footer__item footerText">
 			<a href="mailto:contato@francepanificacao.com.br">contato@francepanificacao.com.br</a><br>

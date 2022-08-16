@@ -14,7 +14,8 @@ Text Domain: rsw-francepan"
 /* CSS STYLE MAKE DON´T USE GULP */
 
 
-.container__form-curriculo, .container__form-curriculo-upload {
+.container__form-curriculo,
+.container__form-curriculo-upload {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: .1rem solid #0E45DE;
@@ -35,7 +36,8 @@ Text Domain: rsw-francepan"
     margin-right: 3rem;
 }
 
-.info__form-curriculo h2, .info__form-curriculo p {
+.info__form-curriculo h2,
+.info__form-curriculo p {
     color: #0E45DE;
 }
 
@@ -59,17 +61,17 @@ Text Domain: rsw-francepan"
 }
 
 .label__form-curriculo-upload:hover {
-    background-color: #fff!important;
-    color: #0E45DE!important;
+    background-color: #fff !important;
+    color: #0E45DE !important;
     border: .1rem solid #0E45DE;
-    transition: background-color .3s ease-out,color .3s ease-out;
+    transition: background-color .3s ease-out, color .3s ease-out;
 }
 
 .wpcf7-form .button1_contato {
     width: 130px;
     height: 38px;
     font-size: 20px;
-    font-family: BrandonBold,Arial,serif;
+    font-family: BrandonBold, Arial, serif;
     text-transform: uppercase;
     margin-left: 75%;
 }
@@ -86,7 +88,7 @@ Text Domain: rsw-francepan"
 
 
 .menu .menu__item-contato.active a {
-    color: #313131!important;
+    color: #313131 !important;
 }
 
 .dropdown {
@@ -110,4 +112,73 @@ Text Domain: rsw-francepan"
 .dropdown:hover .dropdown-content {
     display: block;
     transition: height .3s ease-out;
+}
+
+
+.content-page {
+    display: block;
+    width: 90vw;
+    margin: 0 auto;
+    font-family: 'BrandonMedium';
+    font-size: 18px;
+    line-height: 20px;
+    color: #313131;
+    scroll-margin-top: 250px
+}
+
+.content-page a[href*="#"] {
+    display: block;
+    width: 90%;
+    font-family: 'BrandonBold';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0E45DE;
+    border-bottom: 1px solid #0E45DE;
+    text-decoration: none;
+    padding: 16px 0;
+    cursor: pointer;
+}
+
+.content-page h2,
+.content-page h3,
+.content-page h4,
+.content-page h5,
+.content-page h1 {
+    display: block;
+    font-family: 'BrandonBlack';
+    font-size: 19px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: currentcolor;
+}
+.content-page h1 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+}
+
+@media (min-width: 768px) {
+    .content-page {
+        font-size: 18px;
+        width: 100%;
+    }
+    .content-page h2,
+    .content-page h3,
+    .content-page h4,
+    .content-page h5,
+    .content-page h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .content-page h1 {
+        font-size: 64px !important;
+        line-height: 64px !important;
+    }    
+    .content-page a[href*="#"] {
+        font-size: 16px;
+        line-height: 24px;
+        color: #0E45DE;
+        padding: 16px 0;
+    }
 }

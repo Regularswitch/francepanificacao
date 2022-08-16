@@ -19,7 +19,7 @@
         
         <link href="<?php echo get_template_directory_uri(); ?>/dist/css/fonts.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <link href="<?php echo get_template_directory_uri(); ?>/dist/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-        <link href="<?php echo get_template_directory_uri(); ?>/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="<?php echo get_template_directory_uri(); ?>/style.css?version=1.0.1-<?php echo uniqid(); ?>" media="screen, projection" rel="stylesheet" type="text/css" />
         <!--[if IE]>
             <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <![endif]-->
