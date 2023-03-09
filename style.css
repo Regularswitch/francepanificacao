@@ -186,3 +186,8 @@ Text Domain: francepan
         padding: 16px 0;
     }
 }
+@media (max-width: 768px) {
+    .menu__mobile {
+        top: -45px !important;
+    }
+}

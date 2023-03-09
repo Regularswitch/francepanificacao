@@ -33,7 +33,7 @@
 
 
 <div class="button_whats">
-	<a href="https://api.whatsapp.com/send?phone=5511983936491&amp;text=Olá%2C%20gostaria%20de%20um%20atendimento" target="_blanc">
+	<a href="https://wa.me/5511983936491?text=Olá, gostaria de um atendimento" target="_blanc">
 		<img class="normal" src="<?= get_template_directory_uri(); ?>/assets/img/icons/whatsapp.png" alt="" />
 	</a>
 </div>
