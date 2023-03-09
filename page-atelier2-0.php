@@ -213,7 +213,7 @@ Template Name: 2.0 template
                     <h2 class="blue"><?= __('3 niveis </br>de cursos', 'atelie') ?></h2>
                 </div>
                 <div class="content">
-                    <p class="blue"><?= __('Adaptados ao seu aprendizado e progresso.', 'atelie') ?></p>
+                    <p class="blue"><?= __('Adaptados ao seu aprendizado  e progresso.', 'atelie') ?></p>
                 </div>
 
             </div>

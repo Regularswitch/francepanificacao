@@ -1,12 +1,12 @@
 /*
-Theme Name: rsw-francepan
-Theme URI: 
-Author: RSW/aymeric"
-Author URI: 
-Description: 
-Version: 0.1.0
+Theme Name: francepanificacao
+Theme URI: https://www.francepanificacao.com.br
+Author: Regularswitch
+Author URI: https://regularswitch.com
+Description: Template de uma escola de panificação
+Version: 1.0.0
 License: Copyright
-Text Domain: rsw-francepan"
+Text Domain: francepan
 
 */
 
@@ -153,6 +153,7 @@ Text Domain: rsw-francepan"
     text-transform: uppercase;
     color: currentcolor;
 }
+
 .content-page h1 {
     font-size: 30px !important;
     line-height: 30px !important;
@@ -163,6 +164,7 @@ Text Domain: rsw-francepan"
         font-size: 18px;
         width: 100%;
     }
+
     .content-page h2,
     .content-page h3,
     .content-page h4,
@@ -171,10 +173,12 @@ Text Domain: rsw-francepan"
         font-size: 30px;
         line-height: 35px;
     }
+
     .content-page h1 {
         font-size: 64px !important;
         line-height: 64px !important;
-    }    
+    }
+
     .content-page a[href*="#"] {
         font-size: 16px;
         line-height: 24px;

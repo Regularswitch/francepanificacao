@@ -22,24 +22,9 @@ Template Name: Contato template
 
 		<div class="wrapper__content">
 			<div class="contato__content">
-				<?php
-					if(isset($_GET['emailSent']) && $_GET['emailSent']) {
-						echo __('Seu email foi enviado com sucesso.<br>Entraremos em contato o mais breve possivel !', 'contato');
-					}
-				?>
 				<div class="formSuccess titleTextBold"><?= __('Seu email foi enviado com sucesso.<br>Entraremos em contato o mais breve possivel !', 'contato') ?></div>
 				<div class="formError titleTextBold"><?= __('Seu email não foi enviado. Por favor, tente de novo mais tarde.', 'contato') ?></div>
-
-				<form action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" method="post">
-					<input type="text" name="name" placeholder="<?= __('Nome', 'contato'); ?>" required>
-					<input type="email" name="email" placeholder="<?= __('E-mail', 'contato'); ?>" value="<?= $_POST['email'] ?? '' ?>" required>
-					<input type="tel" name="tel" placeholder="<?= __('Telefone', 'contato'); ?>">
-					<input type="text" name="subject" placeholder="<?= __('Assunto', 'contato'); ?>" required>
-					<textarea name="message" placeholder="<?= __('Sua mensagem', 'contato'); ?>" required></textarea>
-					<input class="button1 button1_contato" type="submit" value="<?= mb_strtoupper(__('Enviar', 'contato')); ?>" name="subscribe" id="mc-embedded-subscribe">
-					<input type="hidden" name="action" value="contact_form">
-				</form>
-				
+					<?php echo do_shortcode('[contact-form-7 id="1360" title="Contato"]'); ?>				
 			</div>
 			<div class="contato__content">
 				<div id="map"></div>

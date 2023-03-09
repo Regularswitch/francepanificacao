@@ -10,7 +10,7 @@
 			<div class="popupwrapper__content_tel contentText">
 				<a href="mailto:contato@francepanificacao.com.br">contato@francepanificacao.com.br</a><br>
 				T: (11) 2369 0887<br>
-				Rua Adib Miguel Haddad 69<br>
+				Rua Adib Miguel Haddad 69 <br>
 				Vila Firmiano Pinto<br>
 				0425-210 São Paulo
 			</div>
